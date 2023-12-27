@@ -1,0 +1,10 @@
+.menu {
+  display: block;
+  width: 200px;
+  margin: 50px auto 0 auto;
+}
+.menu__item {
+  color: red;
+  font-size: 40px;
+  list-style: square;
+}/*# sourceMappingURL=main.css.map */

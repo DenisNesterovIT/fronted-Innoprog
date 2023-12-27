@@ -1,0 +1,12 @@
+$main-color: red;
+
+.menu{
+    display: block;
+    width: 200px;
+    margin: 50px auto 0 auto;
+    &__item{
+        color: $main-color;
+        font-size: 40px;
+        list-style:square;
+    }
+}
