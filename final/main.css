@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(8,187,231,1) 0%, rgba(28,64,212,1) 40%, rgba(155,9,230,1) 100%);
+}
+
+h1{
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+}
+
+input{
+    font-family: Montserrat;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+button{
+    margin-top: 20px;
+    color: white;
+    background-color: #1cd4cd;
+    font-family: Montserrat;
+    font-size: 30px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+span{
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    margin-top: 20px;
+    opacity: 0;
+    transition: all 1s;
+}
